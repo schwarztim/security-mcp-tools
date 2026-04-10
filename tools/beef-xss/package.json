@@ -1,0 +1,31 @@
+{
+  "name": "beef-xss-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for BeEF (Browser Exploitation Framework) REST API",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsc && node dist/index.js",
+    "test": "node dist/index.js --help || true"
+  },
+  "keywords": [
+    "mcp",
+    "beef",
+    "beef-xss",
+    "browser-exploitation",
+    "penetration-testing",
+    "security"
+  ],
+  "author": "thesun",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "axios": "^1.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "typescript": "^5.3.0"
+  }
+}

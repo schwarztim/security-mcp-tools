@@ -1,0 +1,55 @@
+{
+  "name": "mimikatz-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for Mimikatz - Credential extraction and security assessment tool",
+  "main": "dist/index.js",
+  "type": "module",
+  "bin": {
+    "mimikatz-mcp": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "start": "node dist/index.js",
+    "dev": "tsx src/index.ts",
+    "lint": "eslint src/",
+    "clean": "rm -rf dist/",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "mimikatz",
+    "security",
+    "credentials",
+    "kali-linux",
+    "pentesting",
+    "red-team"
+  ],
+  "author": "schwarztim",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/schwarztim/sec-mimikatz-mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/schwarztim/sec-mimikatz-mcp/issues"
+  },
+  "homepage": "https://github.com/schwarztim/sec-mimikatz-mcp#readme",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "typescript": "^5.3.0",
+    "tsx": "^4.7.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ]
+}

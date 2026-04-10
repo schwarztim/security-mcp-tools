@@ -1,0 +1,28 @@
+{
+  "name": "ligolo-ng-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for ligolo-ng tunneling/pivoting tool",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsc --watch"
+  },
+  "keywords": [
+    "mcp",
+    "ligolo-ng",
+    "tunneling",
+    "pivoting",
+    "pentest"
+  ],
+  "author": "thesun",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.7.0"
+  }
+}

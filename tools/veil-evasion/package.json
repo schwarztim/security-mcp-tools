@@ -1,0 +1,29 @@
+{
+  "name": "veil-evasion-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for Veil-Evasion payload generation framework",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsc -w",
+    "test": "node dist/index.js --test"
+  },
+  "keywords": [
+    "mcp",
+    "veil",
+    "evasion",
+    "payload",
+    "pentesting"
+  ],
+  "author": "thesun",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "typescript": "^5.3.0"
+  }
+}

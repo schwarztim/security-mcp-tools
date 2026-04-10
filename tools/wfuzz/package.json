@@ -1,0 +1,28 @@
+{
+  "name": "wfuzz-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for wfuzz web application fuzzer",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsc && node dist/index.js"
+  },
+  "keywords": [
+    "mcp",
+    "wfuzz",
+    "fuzzing",
+    "security",
+    "penetration-testing"
+  ],
+  "author": "thesun",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  }
+}

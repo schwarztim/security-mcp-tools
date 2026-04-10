@@ -1,0 +1,30 @@
+{
+  "name": "censys-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for Censys Search API - internet scan and certificate search",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsc && node dist/index.js",
+    "test": "node --test dist/test.js"
+  },
+  "keywords": [
+    "censys",
+    "mcp",
+    "security",
+    "internet-scan",
+    "certificates"
+  ],
+  "author": "thesun",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "axios": "^1.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "typescript": "^5.3.0"
+  }
+}

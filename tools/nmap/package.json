@@ -1,0 +1,29 @@
+{
+  "name": "nmap-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for nmap network scanning - executes scans via SSH on remote Kali box",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsc --watch"
+  },
+  "keywords": [
+    "mcp",
+    "nmap",
+    "network",
+    "security",
+    "scanning"
+  ],
+  "author": "thesun",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "fast-xml-parser": "^4.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  }
+}

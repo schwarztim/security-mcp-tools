@@ -1,0 +1,28 @@
+{
+  "name": "evil-winrm-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for Evil-WinRM - WinRM shell for penetration testing",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsc --watch"
+  },
+  "keywords": [
+    "mcp",
+    "evil-winrm",
+    "winrm",
+    "pentesting",
+    "security"
+  ],
+  "author": "thesun",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "typescript": "^5.3.0"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "name": "wpscan-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for WPScan WordPress security scanner - executes on Kali via SSH",
+  "main": "dist/index.js",
+  "type": "module",
+  "bin": {
+    "wpscan-mcp": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsc --watch",
+    "clean": "rm -rf dist",
+    "rebuild": "npm run clean && npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "wpscan",
+    "wordpress",
+    "security",
+    "scanner",
+    "vulnerability"
+  ],
+  "author": "thesun",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.25.3",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@types/node": "^25.1.0",
+    "typescript": "^5.9.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

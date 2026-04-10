@@ -1,0 +1,29 @@
+{
+  "name": "proxychains-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for proxychains-ng (proxychains4) - route commands through proxy chains via SSH to Kali",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsc --watch",
+    "test": "node --test"
+  },
+  "keywords": [
+    "mcp",
+    "proxychains",
+    "proxy",
+    "kali",
+    "security"
+  ],
+  "author": "thesun",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.0.0"
+  }
+}

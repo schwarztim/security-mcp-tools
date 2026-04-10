@@ -1,0 +1,28 @@
+{
+  "name": "aircrack-ng-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for WiFi security auditing using aircrack-ng suite via SSH to Kali",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsc --watch"
+  },
+  "keywords": [
+    "mcp",
+    "aircrack-ng",
+    "wifi",
+    "security",
+    "penetration-testing"
+  ],
+  "author": "thesun",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "typescript": "^5.3.0"
+  }
+}

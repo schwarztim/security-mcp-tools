@@ -1,0 +1,33 @@
+{
+  "name": "gobuster-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for Gobuster - directory/file, DNS subdomain, virtual host, and S3 bucket enumeration tool",
+  "main": "dist/index.js",
+  "type": "module",
+  "bin": {
+    "gobuster-mcp": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsc --watch",
+    "test": "node dist/index.js"
+  },
+  "keywords": [
+    "mcp",
+    "gobuster",
+    "security",
+    "penetration-testing",
+    "enumeration",
+    "directory-brute-force",
+    "dns-enumeration",
+    "vhost-enumeration"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.25.3",
+    "@types/node": "^25.1.0",
+    "typescript": "^5.9.3"
+  }
+}

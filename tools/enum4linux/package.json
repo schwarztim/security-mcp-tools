@@ -1,0 +1,29 @@
+{
+  "name": "enum4linux-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for enum4linux-ng SMB enumeration via SSH to Kali",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsc -w"
+  },
+  "keywords": [
+    "mcp",
+    "enum4linux",
+    "smb",
+    "enumeration",
+    "security",
+    "kali"
+  ],
+  "author": "thesun",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "typescript": "^5.3.0"
+  }
+}
