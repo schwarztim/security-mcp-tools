@@ -21,7 +21,7 @@
   "license": "MIT",
   "dependencies": {
     "fastmcp": "^3.33.0",
-    "axios": "^1.6.0",
+    "axios": "^1.16.0",
     "zod": "^3.22.0"
   },
   "devDependencies": {
