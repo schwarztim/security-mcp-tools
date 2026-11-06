@@ -19,7 +19,7 @@
   "author": "thesun",
   "license": "MIT",
   "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.0.0"
+    "@modelcontextprotocol/sdk": "^1.32.0"
   },
   "devDependencies": {
     "@types/node": "^20.0.0",
